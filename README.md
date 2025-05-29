@@ -63,9 +63,6 @@ To run the solution operator dataset (example 2) with nonlinear (b to p) setting
 python3 Attention_darcy_chitou_int.py
 ```
 
-## NAO Datasets
-We provide the synthetic and solution operator datasets that are used in the paper.
-
 
 **NIPS 2D Darcy example**:
 ```
@@ -83,7 +80,14 @@ We provide the Darcy and MMNIST datasets that are used in the paper.
 
 ## Citation
 
+If you find our models useful, please consider citing our papers:
+
 ```
+@inproceedings{liu2025nips,
+  title={Neural Interpretable PDEs: Harmonizing Fourier Insights with Attention for Scalable and Interpretable Physics Discovery},
+  author={Liu, Ning and Yu, Yue},
+  booktitle={Proceedings of the 42th International Conference on Machine Learning (ICML 2025)}
+}
 @inproceedings{yu2024nonlocal,
   title={Nonlocal Attention Operator: Materializing Hidden Knowledge Towards Interpretable Physics Discovery},
   author={Yu, Yue and Liu, Ning and Lu, Fei and Gao, Tian and Jafarzadeh, Siavash and Silling, Stewart},
